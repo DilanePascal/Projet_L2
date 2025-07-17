@@ -1,0 +1,7 @@
+setwd("//ad.univ-lille.fr/Etudiants/Homedir-etu/324089/Documents/Codes R D-P/Projet R")
+table=read.table("donnee-dep-data.gouv-2024-geographie2024-produit-le2025-01-26.csv",header=TRUE,sep=";",dec=",",skip=0)
+View(table)
+View(table)
+setwd("//ad.univ-lille.fr/Etudiants/Homedir-etu/324089/Documents/Codes R D-P/Projet R")
+table2=read.table("donnee-data.gouv-2023-geographie2024-produit-le2024-07-05 (2).csv",header=TRUE,sep=";",dec=",",skip=0)
+View(table2)

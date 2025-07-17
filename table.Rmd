@@ -1,0 +1,30 @@
+---
+title: "Projet R - La Délinquance en France"
+author: "Dilane-Pascal GATIMA & Merveille Gaella MOUYABI"
+date: "2025-03-19"
+output:
+  pdf_document: default
+  html_document:
+   df_print: paged
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Introduction
+
+La Délinquance est l'un des problèmes fondamentaux qui s'oppossent à la sécurité dans une société, avec des milliers de crimes et délits chaque année
+```{r}
+tinytex::reinstall_tinytex()
+tinytex::uninstall_tinytex()
+tinytex::install_tinytex()
+
+installation tex
+mpm --install=bookmark
+
+tinytex::tlmgr_install("bookmark")
+tinytex::reinstall_tinytex()
+
+```
+
